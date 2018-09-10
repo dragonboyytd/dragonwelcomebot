@@ -210,6 +210,4 @@ let args = message.content.split(' ').slice(1).join(' ');
 }
 });
 
-
-	
 client.login(process.env.BOT_TOKEN);
