@@ -212,4 +212,4 @@ let args = message.content.split(' ').slice(1).join(' ');
 
 
 	
-client.login('NDc4ODkzNzc0OTQ5MzE4NjY2.DlRVGA.98Iz6aMnyLKshsBzQkT-qCgEYwc');
+client.login(process.env.BOT_TOKEN);
