@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  client.user.setGame(` By DT DragonBoy_YTD#1431 .`,'https://www.twitch.tv/v5bz');
   console.log('---------------');
   console.log('Dragon Bot')
   console.log('---------------')
